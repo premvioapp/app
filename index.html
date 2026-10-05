@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<title>Premvio – Buy Telegram Stars and Premium</title>
+<style>
+:root{
+  --bg:#f3f6fb; --ink:#14213d; --muted:#5a6785; --accent:#2a7de1; --star:#f5b301; --card:#ffffff; --line:#d9e1ef;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0d1526;--ink:#eef3fc;--muted:#97a4c2;--accent:#5ea4ff;--star:#ffc93c;--card:#16213a;--line:#26345a;}
+}
+:root[data-theme="dark"]{--bg:#0d1526;--ink:#eef3fc;--muted:#97a4c2;--accent:#5ea4ff;--star:#ffc93c;--card:#16213a;--line:#26345a;}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 20px;text-align:center}
+.logo-img{width:min(240px,60vw);height:auto;margin-bottom:32px;border-radius:50%}
+.logo{font-family:"Trebuchet MS",Verdana,sans-serif;font-weight:700;font-size:1.25rem;letter-spacing:.02em;display:flex;align-items:center;gap:10px;margin-bottom:40px}
+.logo span.dot{width:14px;height:14px;background:var(--star);transform:rotate(45deg);border-radius:3px;display:inline-block}
+h1{font-size:clamp(2rem,6vw,3.6rem);line-height:1.1;margin:0 0 18px;max-width:18ch;font-weight:700}
+p.lead{font-size:1.15rem;line-height:1.6;color:var(--muted);max-width:46ch;margin:0 auto 32px}
+.cards{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-bottom:36px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 26px;min-width:200px;font-family:"Trebuchet MS",Verdana,sans-serif}
+.card b{display:block;font-size:1.05rem;margin-bottom:4px}
+.card small{color:var(--muted)}
+.status{display:inline-flex;align-items:center;gap:10px;font-family:"Trebuchet MS",Verdana,sans-serif;font-size:1rem;padding:12px 22px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+.pulse{width:10px;height:10px;border-radius:50%;background:var(--accent);animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
+@media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+.notify{margin-top:36px;font-family:"Trebuchet MS",Verdana,sans-serif}
+.notify p{margin:0 0 14px;color:var(--muted);font-size:1rem}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;font-size:1rem}
+.btn:hover{filter:brightness(1.1)}
+.btn:focus-visible{outline:3px solid var(--star);outline-offset:3px}
+footer{margin-top:48px;font-family:"Trebuchet MS",Verdana,sans-serif;font-size:.8rem;color:var(--muted);max-width:52ch;line-height:1.5}
+</style>
+</head>
+<body>
+<img class="logo-img" src="logo.png" alt="Premvio.app logo – Telegram Stars and Premium" width="240" height="240">
+<h1>Buy Telegram Stars and Premium here</h1>
+<p class="lead">Our app is being built. Please wait, we will open very soon.</p>
+<div class="cards">
+  <div class="card"><b>Telegram Stars</b><small>Coming soon</small></div>
+  <div class="card"><b>Telegram Premium</b><small>Coming soon</small></div>
+</div>
+<div class="status"><span class="pulse"></span>Under construction. Please check back soon.</div>
+<div class="notify">
+  <p>Want to know when we launch?</p>
+  <a class="btn" href="https://t.me/premvio" target="_blank" rel="noopener">Get notified on Telegram</a>
+</div>
+<footer>premvio.app is an independent service and is not affiliated with or endorsed by Telegram.</footer>
+</body>
+</html>
